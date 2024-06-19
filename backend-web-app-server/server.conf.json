@@ -1,0 +1,14 @@
+{
+    "port" : 3000,
+    "realm" : "WCEGNE",
+    "labFQDN" : "ap.cc.avayacloud.com",
+    "integrationId" : "d25aee74-99c5-4f31-b898-0e16a7d62dc2",
+    "clientId" : "Clientid-WCEGNE",
+    "clientSecret" : "FE6bfjhWPFdxXyGNjGAPwtaw1vfdyccr",
+    "ttl": "30",
+    "secure": false, 
+    "certificatePath": "",
+    "privateKeyPath": "",
+    "passphrase": "",
+    "allowedOrigins": ["*"]
+}

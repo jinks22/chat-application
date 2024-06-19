@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+ 
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/teleLogo.png" rel="icon">
+  <link href="assets/img/teleLogo.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Roboto:300,300i,400,400i,500,500i,700,700i&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+  <script src="bootstrap.min.js" crossorigin="anonymous"></script>
+  <script defer src="./languageSwitcher.js"></script>
+  <script src="index.js"></script> 
+  <script id="langScript" src="./locales/en.js"></script>
+
+  <script src="avaya-ccaas-chat-sdk.js"></script>
+<title>Teledata</title>
+  <!-- <meta http-equiv="Content-Security-Policy" content="default-src *;img-src * 'self' data: https:; script-src 'self' 'unsafe-inline' 'unsafe-eval' *; style-src  'self' 'unsafe-inline' *"> -->
+
+
+  <!-- <script crossorigin src="https://unpkg.com/react@16/umd/react.development.js"></script>
+  <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+<script crossorigin src="https://unpkg.com/react-dom@16.14.0/umd/react-dom.development.js"></script> -->
+
+  <style>
+      html {
+          height: -webkit-fill-available;
+      }
+
+     
+  </style>
+<script defer src="chat-client.js" ></script></head>
+
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top d-flex align-items-center header-transparent">
+    <div class="container d-flex justify-content-between align-items-center">
+
+      <div class="logo">
+        <!-- <h1 class="text-light"><a href="index.html"><span>Teledata</span></a></h1> -->
+        <!-- Uncomment below if you prefer to use an image logo -->
+       <a href="index.html"><img src="assets/img/tele.png" alt="" class="img-fluid"></a>
+      </div>
+
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li class="dropdown"><a href="#" class="active "><span>About us</span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+              <li><a href="a_ourTeam.html">Our Team</a></li>
+              <li><a href="csr.html">CSR</a></li>
+              <li><a href="career.html">Contact Us</a></li>         
+            </ul>
+          </li>
+          <li class="dropdown"><a href="#"><span>Our Services</span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+              <li><a href="#">Applications Development</a></li>
+              <li><a href="#">Teledata Academy</a></li>
+              <li><a href="#">VAPT</a></li>         
+            </ul>
+          </li>
+          <li><a href="blog.html">Blog</a></li>
+          <!-- <li><a href="contact.html">Contact Us</a></li> -->
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+
+    </div>
+  </header><!-- End Header -->
+  <!-- End Header -->
+
+  <input type="hidden" name="chat_client_first_name" value="" />
+    <input type="hidden" name="chat_client_last_name" value="" />
+    <input type="hidden" name="chat_client_email" value="" />
+    <chat-app 
+       id="chat-app"
+        connector-url="https://ap.cc.avayacloud.com" 
+        jwt-server-url="http://127.0.0.1:3000/v1/getJWT"
+        integration-id="d25aee74-99c5-4f31-b898-0e16a7d62dc2" 
+        color="#3235d9" 
+        text-color="#fff"
+        logo-url="assets/icons/teleLogo.png" 
+        pre-chat-logo-url="assets/icons/teleLogo.png"
+        description="We’re here to talk, so ask us anything! Message us below."
+        disclaimer=""
+        show-context-params="false" chat-header-text="Teledata Customer Support" show-chat-header="true"
+        show-pre-chat="true" participant-identity-type="participant-name" brand-name="Teledata"
+        participants-avatar-bg-colors="#D93D32,#0B3363,#000000,#A63B11" System-avatar-icon="assets/icons/avatar-bot.svg"
+        participant-avatar-icon="assets/icons/avatar-agent.svg" lang="en" direction="ltr" size="lg"
+        engagement-params='{"availableBalance":"1998"}' emoji-control-disabled="false"></chat-app>
+
+  <main id="main">
+
+    <!-- ======= Our Portfolio Section ======= -->
+    <section class="breadcrumbs">
+      <div class="container">
+
+        <div class="d-flex justify-content-between align-items-center">
+          <h2>Corporate Special Responsibility</h2>
+          <ol>
+            <li><a href="index.html">Home</a></li>
+            <li>CSR</li>
+          </ol>
+        </div>
+
+      </div>
+    </section><!-- End Our Portfolio Section -->
+
+    <!-- ======= Portfolio Section ======= -->
+    <section class="portfolio">
+      <div class="container">
+
+        <div class="row">
+          <div class="col-lg-12">
+            <ul id="portfolio-flters">
+              <!-- <li data-filter="*" class="filter-active">All</li> -->
+              <!-- <li data-filter=".filter-app">App</li>
+              <li data-filter=".filter-card">Card</li>
+              <li data-filter=".filter-web">Web</li> -->
+            </ul>
+          
+          </div>
+        </div>
+        <section class="facts section-bg" data-aos="fade-up">
+        <div class="container">
+          <div class="row counters">
+        
+            <div class="col-lg-12 col-6 text-center">
+                 <a>Teledata aims to be a company where Volunteerism and Care for others is greatly valued. <br> We hope to establish an organization wherein employees are geared towards creating a better world not just today but for the future generation.<br>
+                    Over the years, Teledata has been partnering with various Government and Non-government organization in hopes to provide help to the less fortunate members of our community. <br>Through these efforts, we wish to be a part of a country where there is hope for a better tomorrow.
+                  </a>
+            </div>
+          </div>
+        </div>
+        </section>
+        <br>
+        <div class="row portfolio-container" data-aos="fade-up" data-aos-easing="ease-in-out" data-aos-duration="500">
+
+          <div class="col-lg-4 col-md-6 portfolio-wrap filter-app">
+            <div class="portfolio-item">
+              <img src="assets/img/portfolio/bl.jpeg" class="img-fluid" alt="">
+              <!-- <div class="portfolio-info">
+                <h3>App 1</h3>
+                <div>
+                  <a href="assets/img/portfolio/bl1.jpeg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 1"><i class="bx bx-plus"></i></a>
+                  <a href="portfolio-details.html" title="Portfolio Details"><i class="bx bx-link"></i></a>
+                </div>
+              </div> -->
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-wrap filter-web">
+            <div class="portfolio-item">
+              <img src="assets/img/portfolio/bl4.jpg" class="img-fluid" alt="">
+              <!-- <div class="portfolio-info">
+                <h3>Web 3</h3>
+                <div>
+                  <a href="assets/img/portfolio/bl5.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 3"><i class="bx bx-plus"></i></a>
+                  <a href="portfolio-details.html" title="Portfolio Details"><i class="bx bx-link"></i></a>
+                </div>
+              </div> -->
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-wrap filter-app">
+            <div class="portfolio-item">
+              <img src="assets/img/portfolio/bl5.jpg" class="img-fluid" alt="">
+              <!-- <div class="portfolio-info">
+                <h3>App 2</h3>
+                <div>
+                  <a href="assets/img/portfolio/portfolio-3.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 2"><i class="bx bx-plus"></i></a>
+                  <a href="portfolio-details.html" title="Portfolio Details"><i class="bx bx-link"></i></a>
+                </div>
+              </div> -->
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-wrap filter-card">
+            <div class="portfolio-item">
+              <img src="assets/img/portfolio/3.jpg" class="img-fluid" alt="">
+              <!-- <div class="portfolio-info">
+                <h3>Card 2</h3>
+                <div>
+                  <a href="assets/img/portfolio/portfolio-4.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 2"><i class="bx bx-plus"></i></a>
+                  <a href="portfolio-details.html" title="Portfolio Details"><i class="bx bx-link"></i></a>
+                </div>
+              </div> -->
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-wrap filter-web">
+            <div class="portfolio-item">
+              <img src="assets/img/portfolio/7.jpg" class="img-fluid" alt="">
+              <!-- <div class="portfolio-info">
+                <h3>Web 2</h3>
+                <div>
+                  <a href="assets/img/portfolio/portfolio-5.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 2"><i class="bx bx-plus"></i></a>
+                  <a href="portfolio-details.html" title="Portfolio Details"><i class="bx bx-link"></i></a>
+                </div>
+              </div> -->
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-wrap filter-app">
+            <div class="portfolio-item">
+              <img src="assets/img/portfolio/9.jpg" class="img-fluid" alt="">
+              <!-- <div class="portfolio-info">
+                <h3>App 3</h3>
+                <div>
+                  <a href="assets/img/portfolio/portfolio-6.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 3"><i class="bx bx-plus"></i></a>
+                  <a href="portfolio-details.html" title="Portfolio Details"><i class="bx bx-link"></i></a>
+                </div>
+              </div> -->
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-wrap filter-card">
+            <div class="portfolio-item">
+              <img src="assets/img/portfolio/badmintonturnament.png" class="img-fluid" alt="">
+              <!-- <div class="portfolio-info">
+                <h3>Card 1</h3>
+                <div>
+                  <a href="assets/img/portfolio/portfolio-7.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 1"><i class="bx bx-plus"></i></a>
+                  <a href="portfolio-details.html" title="Portfolio Details"><i class="bx bx-link"></i></a>
+                </div>
+              </div> -->
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-wrap filter-card">
+            <div class="portfolio-item">
+              <img src="assets/img/portfolio/Teledata_Fire_Drill_Thumbnail.jpg" class="img-fluid" alt="">
+              <!-- <div class="portfolio-info">
+                <h3>Card 3</h3>
+                <div>
+                  <a href="assets/img/portfolio/portfolio-8.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 3"><i class="bx bx-plus"></i></a>
+                  <a href="portfolio-details.html" title="Portfolio Details"><i class="bx bx-link"></i></a>
+                </div>
+              </div> -->
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-wrap filter-web">
+            <div class="portfolio-item">
+              <img src="assets/img/portfolio/Fun-Run-2023.png" class="img-fluid" alt="">
+              <!-- <div class="portfolio-info">
+                <h3>Web 1</h3>
+                <div>
+                  <a href="assets/img/portfolio/portfolio-9.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 1"><i class="bx bx-plus"></i></a>
+                  <a href="portfolio-details.html" title="Portfolio Details"><i class="bx bx-link"></i></a>
+                </div>
+              </div> -->
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Portfolio Section -->
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer" data-aos="fade-up" data-aos-easing="ease-in-out" data-aos-duration="500">
+    
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-6 col-md-6 footer-links">
+            <h3>Get in touch:</h3>
+            <h5>17/F Hanston Square 17 San Miguel Avenue, Ortigas Center, Pasig City, NCR 1605 Philippines</h5>
+          </div>
+
+          <div class="col-lg-6 col-md-6 footer-links">
+            <h3>Talk to us:</h3>
+            <h5>Corporate Hotline: +632 7900 7100 <br> 24/7 Customer Care Hotline: +632 7900 7111</h5>
+          </div>
+
+          <!-- <div class="col-lg-3 col-md-6 footer-contact">
+            <h4>Contact Us</h4>
+            <p>
+              A108 Adam Street <br>
+              New York, NY 535022<br>
+              United States <br><br>
+              <strong>Phone:</strong> +1 5589 55488 55<br>
+              <strong>Email:</strong> info@example.com<br>
+            </p>
+
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-info">
+            <h3>About Moderna</h3>
+            <p>Cras fermentum odio eu feugiat lide par naso tierra. Justo eget nada terra videa magna derita valies darta donna mare fermentum iaculis eu non diam phasellus.</p>
+            <div class="social-links mt-3">
+              <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
+              <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
+              <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
+              <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+            </div>
+          </div> -->
+
+        </div>
+      </div>
+    </div>
+
+
+    <div class="container">
+      <div class="copyright">
+        &copy; Copyright <strong><span>Teledata</span></strong>. All Rights Reserved
+      </div>
+      <div class="credits">
+        <!-- All the links in the footer should remain intact. -->
+        <!-- You can delete the links only if you purchased the pro version. -->
+        <!-- Licensing information: https://bootstrapmade.com/license/ -->
+        <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/free-bootstrap-template-corporate-moderna/ -->
+        <!-- Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a> -->
+      </div>
+    </div>
+  </footer><!-- End Footer -->
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
